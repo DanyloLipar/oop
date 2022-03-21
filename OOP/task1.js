@@ -2,7 +2,7 @@
 class Student {
     constructor(fullName, direction) {
         this.name = fullName;
-        this.direction = direction;
+        this.direct = direction;
     }
 
     showFullName() {
@@ -23,11 +23,11 @@ class Student {
     }
 
     get direction() {
-        return this.direction;
+        return this.direct;
     }
 
     set direction(value) {
-        this.direction = value;
+        this.direct = value;
     }
 }
 
