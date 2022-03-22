@@ -32,6 +32,7 @@ const worker2 = new Worker("Tom Tomson", 48, 22);
 worker2.workExperience = 1.5;
 allWorkers.push({ name: worker2.name, salary: worker2.showSalaryWithExperience });
 const worker3 = new Worker("Andy Ander", 29, 23);
+worker3.workExperience = 1.5;
 allWorkers.push({ name: worker3.name, salary: worker3.showSalaryWithExperience });
 console.log(allWorkers);
 
