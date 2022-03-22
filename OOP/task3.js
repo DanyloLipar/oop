@@ -39,3 +39,5 @@ console.log(allWorkers);
 function sortBySalary(allWorkers) {
     return allWorkers.sort((worker1, worker2) => worker1.salary - worker2.salary);
 }
+
+sortBySalary(allWorkers);
